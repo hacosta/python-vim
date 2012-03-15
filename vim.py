@@ -8,8 +8,9 @@ import atexit
 temp_filename = tempfile.mkstemp('.py')[1]
 atexit.register(os.remove, temp_filename)
 
-def vim(editor='vim'):
-	editor = os.getenv('EDITOR') or editor
+def vim(editor=''):
+	""" Vim function, takes an alternative editor as a param. Will launch an editor instance and exec the code written to that file"""
+	editor = editor or os.getenv('EDITOR') or 'vi'
 	before = open(temp_filename).read()
 	subprocess.call([editor, temp_filename])
 	after = open(temp_filename).read()
