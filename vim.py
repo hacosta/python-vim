@@ -3,8 +3,10 @@ import subprocess
 import tempfile
 import os
 import imp
+import atexit
 
 temp_filename = tempfile.mkstemp('.py')[1]
+atexit.register(os.remove, temp_filename)
 
 def vim(editor='vim'):
 	editor = os.getenv('EDITOR') or editor
