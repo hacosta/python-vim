@@ -1,7 +1,6 @@
 import subprocess
 import tempfile
 import os
-import imp
 import atexit
 
 temp_filename = tempfile.mkstemp('.py')[1]
