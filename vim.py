@@ -17,7 +17,6 @@ def vim(editor=''):
 	if before != after:
 		new_locals = {}
 		exec(after, globals(), new_locals)
-		print(new_locals)
 		for k, v in new_locals.items():
 			try: #nasty hack to include the vars back on the interpreter
 				__builtin__[k] = v 
