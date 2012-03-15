@@ -1,1 +1,9 @@
 Simple tool used to easily modify scripts inside the python interactive console
+
+Recommended Usage:
+Setup python to read your .pythonrc.py file
+
+Add the following lines to your .pythonrc.py
+from vim import *
+
+Run vim()
