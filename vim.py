@@ -16,7 +16,7 @@ def vim(editor=''):
 		new_locals = {}
 		try:
 			exec(after, globals(), new_locals)
-		except SystemExit, e:
+		except SystemExit:
 			pass
 		for k, v in new_locals.items():
 			try: #nasty hack to include the vars back on the interpreter
