@@ -39,3 +39,11 @@ Protip:
 Add this to your .pythonrc file:
 
 from vim import *
+
+
+Installing
+----------
+* Using pip:
+```
+$ pip install python-vim
+```
