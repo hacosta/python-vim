@@ -1,4 +1,5 @@
-[![PyPI version](https://badge.fury.io/py/python-vim.svg)](http://badge.fury.io/py/python-vim)
+[![PyPI version](https://badge.fury.io/py/python-vim.png)](http://badge.fury.io/py/python-vim) [![PyPI downloads](https://pypip.in/d/python-vim/badge.png)](https://pypi.python.org/pypi/python-vim)
+
 
 python-vim
 ==========
