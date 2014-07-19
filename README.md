@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/python-vim.svg)](http://badge.fury.io/py/python-vim)
+
 python-vim
 ==========
 
