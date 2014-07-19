@@ -36,12 +36,6 @@ r
 
 'bar'
 
-Protip:
--------
-Add this to your .pythonrc file:
-
-from vim import *
-
 
 Installing
 ----------
@@ -49,3 +43,11 @@ Installing
 ```
 $ pip install python-vim
 ```
+
+Protip
+-------
+Add this to your .pythonrc file:
+
+from vim import *
+
+
